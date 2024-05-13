@@ -1,0 +1,49 @@
+.shop {
+  display: flex;
+  justify-content: space-around;
+}
+.shop-box {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+.shop-box-one {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 10px;
+}
+.shop-box-one span img {
+  margin-top: 33px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.shop-box-one:hover {
+  transition: 0.8s;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.shop-text {
+  display: flex;
+  justify-content: center;
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-weight: 600;
+}
+.shop-title {
+  display: flex;
+  justify-content: center;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 27px;
+}
+
+@media (max-width: 1065px) {
+  .shop {
+    display: block;
+  }
+}/*# sourceMappingURL=shop.css.map */
