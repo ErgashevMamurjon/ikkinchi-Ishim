@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -324,6 +326,7 @@ nav {
   padding-top: 12px;
   padding-bottom: 12px;
   align-items: center;
+  margin-bottom: 20px;
 }
 nav ul {
   display: flex;
@@ -347,6 +350,7 @@ nav ul a {
 }
 .header .btn {
   position: relative;
+  display: flex;
 }
 .header .btn i {
   position: absolute;
@@ -360,6 +364,21 @@ input {
   padding-bottom: 17px;
   padding-left: 50px;
   border: 1px solid #ebebeb;
+}
+
+.search-res {
+  position: relative;
+  display: flex;
+}
+.search-res input {
+  padding-right: 200px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 50px;
+  border: 1px solid #ebebeb;
+  display: flex;
+  margin: 0 auto;
+  display: none;
 }
 
 @media (max-width: 1350px) {
@@ -379,4 +398,100 @@ input {
   nav {
     display: none;
   }
+}
+.menu-box {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 43px;
+  padding: 24px 40px 24px 40px;
+}
+
+span {
+  gap: 10px;
+  align-items: center;
+  display: flex;
+}
+
+span p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #000;
+}
+
+.aksiya p {
+  color: red;
+}
+
+@media (max-width: 950px) {
+  .box-1, .aksiya {
+    display: none;
+  }
+}
+.aksiya p {
+  color: red;
+}
+
+.menu-res-768px {
+  display: none;
+  padding-top: 15px;
+}
+.menu-res-768px ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-res-768px span {
+  display: flex;
+  justify-content: center;
+}
+.menu-res-768px a {
+  font-family: Roboto;
+  color: #414141;
+}
+.menu-res-768px span {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 14px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .menu-box {
+    display: none;
+  }
+  .menu-res-768px {
+    display: block;
+  }
+  .btn i {
+    display: none;
+  }
+  .btn input {
+    display: none;
+  }
+  .search-res input {
+    display: block;
+  }
+  .search-res {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 470px) {
+  .aksiya2 {
+    display: none;
+  }
+  .search-res input {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 400px) {
+  .search-res input {
+    padding-right: 80px;
+  }
+}
+.menu-box {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
