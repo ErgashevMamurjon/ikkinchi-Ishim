@@ -33,6 +33,16 @@ position: absolute;
 top: 20px;
 left: 12px;
 }
+.btn input[type="text"] {
+    padding: 20px 70px;
+    font-family: Roboto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-right: 768px;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+  }
 }
 }
 input{
@@ -146,6 +156,15 @@ span{
         .search-res{
         padding-top: 20px;
         padding-bottom: 20px;
+        .btn input[type="text"] {
+            padding: 20px 70px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            padding-right: 768px;
+            align-items: center;
+            border: 1px solid #e6e6e6;
+          }
         }
     }
   @media (max-width:470px) {
@@ -164,4 +183,6 @@ span{
   .menu-box{
 cursor: pointer;
 }
-
+.box111{
+margin-top: 30px;
+}
