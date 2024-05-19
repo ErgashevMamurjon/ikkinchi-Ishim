@@ -196,4 +196,161 @@ span p {
 
 .box111 {
   margin-top: 30px;
+}
+
+.bac-fon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bac-fon-one {
+  display: flex;
+  align-items: center;
+}
+.bac-fon .loft {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 105%;
+  color: #3c3c3c;
+  font-family: Playfair Display;
+  padding-left: 65px;
+}
+.bac-fon .mebel-tex {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #343434;
+  padding-left: 65px;
+  padding-top: 15px;
+}
+.bac-fon .katolog {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 25px;
+  color: black;
+  border: none;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+.bac-fon .way:hover {
+  color: rgba(157, 157, 157, 0.2784313725);
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.bac-fon .way {
+  padding: 11px 14px 11px 12px;
+  border: none;
+  color: white;
+  background-color: rgba(157, 157, 157, 0.2784313725);
+}
+.bac-fon .way-one {
+  margin-left: 30px;
+}
+.bac-fon .way-two {
+  margin-right: 25px;
+}
+.bac-fon .katolog:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transform: 0.3s;
+}
+
+.bac-fon2 .mebel-tex2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  padding-left: 43px;
+  padding-top: 71px;
+}
+.bac-fon2 .katolog2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 14px 25px;
+  color: black;
+  border: none;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  margin-left: 43px;
+  margin-top: 20px;
+}
+
+.way22, .way33 {
+  padding: 11px 13px 11px 12px;
+  border: none;
+  color: white;
+  background-color: rgb(208, 205, 205);
+}
+
+.way56 {
+  padding-top: 188px;
+  margin-left: 370px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.way33:hover {
+  transition: 0.3s;
+  color: rgb(208, 205, 205);
+  background-color: white;
+  cursor: pointer;
+}
+
+.way22:hover {
+  transition: 0.3s;
+  color: rgb(208, 205, 205);
+  background-color: white;
+  cursor: pointer;
+}
+
+.fon-tex-box {
+  width: 166px;
+  height: 126px;
+  background-color: #F4F4F4;
+}
+
+.sofe-tex {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16.45px;
+  text-align: left;
+  margin-top: 37px;
+  margin-left: 15px;
+  margin-bottom: 4.5px;
+}
+
+.sofe-tex2 {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10.33px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+main .bbb, .ccc {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  main .aaa {
+    display: none;
+  }
+  main .bbb {
+    display: block;
+  }
+}
+@media (max-width: 730px) {
+  main .bbbb {
+    display: none;
+  }
+  main .ccc {
+    display: block;
+  }
 }/*# sourceMappingURL=block.css.map */
