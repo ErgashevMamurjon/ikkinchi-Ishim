@@ -674,4 +674,147 @@ main .bbb, .ccc {
   main .ccc {
     display: block;
   }
+}
+.xit {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  padding-left: 230px;
+  padding-top: 60px;
+  padding-bottom: 67px;
+}
+
+.tavar .one .boxx {
+  display: flex;
+  align-items: center;
+}
+.tavar .one .boxx i {
+  top: 0;
+  padding-top: 21px;
+  margin-top: -220px;
+  padding-right: 15px;
+}
+.tavar .one .boxx img {
+  padding-top: 42px;
+  padding-bottom: 54px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.tavar .one .text-one {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+.tavar .one .text-two {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 11px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+}
+.tavar .one .text-pul {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 32px;
+  padding-left: 20px;
+}
+.tavar .box {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 270px;
+}
+.tavar .one:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.tavar .boxxx {
+  display: flex;
+  justify-content: space-around;
+}
+.tavar .razmer {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #c4c4c4;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+.tavar .name {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #c4c4c4;
+  font-size: 9px;
+  padding-bottom: 3px;
+}
+.tavar .cm {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 9px;
+  padding-bottom: 20px;
+}
+.tavar .boxxx i {
+  padding-top: 3px;
+}
+
+.animsen {
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.one:hover .animsen {
+  transition: 0.8s;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.foter {
+  display: flex;
+}
+.foter .boxx22 {
+  padding-left: 477px;
+}
+.foter .boxx22 .mbb {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.foter .pl-700 {
+  padding-bottom: 70px;
+}
+.foter .box-22 {
+  display: flex;
+  padding-left: 130px;
+  padding-bottom: 32px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  gap: 30px;
+}
+.foter .box-22 .aksiyaaa {
+  color: red;
+}
+.foter .foter-box1, .foter .nav {
+  display: flex;
+  padding-left: 130px;
+  gap: 83px;
+  padding-bottom: 51px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+}
+.foter .foter-box1 .tex2, .foter .foter-box1 .tex3, .foter .nav .tex2, .foter .nav .tex3 {
+  padding-top: 7px;
+}
+
+footer {
+  padding-top: -80px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }/*# sourceMappingURL=index.css.map */
